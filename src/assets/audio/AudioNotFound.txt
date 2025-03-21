@@ -1,0 +1,1 @@
+Aici trebuie să fiu diferite fișiere cu sunete, dar git nu le încarcă :(

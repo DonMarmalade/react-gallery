@@ -1,0 +1,18 @@
+.image {
+    aspect-ratio: 16/9;
+    width: 384px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.image:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px cornflowerblue;
+    transition: 0.2s;
+}
+
+.selected {
+    border: solid 4px greenyellow;
+}

@@ -1,16 +1,21 @@
 .button {
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
-    color: black;
-    border: 1px solid black;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
     border-radius: 20%;
-    padding: 8px;
-    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
     cursor: pointer;
     transition: background-color 0.2s;
 }
 
 .button:hover {
-    background-color: black;
-    color: white;
+    background-color: cornflowerblue;
+    color: #acfd2f;
+    transition: 0.2s;
 }

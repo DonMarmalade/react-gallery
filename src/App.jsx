@@ -1,9 +1,9 @@
-import ButtonList from "./components/ButtonList/index.js";
+import Gallery from "./components/Gallery/index.js";
 
 function App() {
     return (
         <>
-            <ButtonList />
+            <Gallery />
         </>
     );
 }

@@ -1,15 +1,15 @@
-import { useState } from 'react'
+import {useState} from 'react'
 import styles from './ButtonList.module.css'
 import Button from '../Button';
 
-function ButtonList() {
+function ButtonList({onPrevImage, onNextImage, onRandomImage, onShuffle}) {
     return (
         <>
             <div className={styles.buttonList}>
-                <Button type="left" />
-                <Button type="left" />
-                <Button type="left" />
-                <Button type="left" />
+                <Button type="left" onClick={onPrevImage}/>
+                <Button type="random" onClick={onRandomImage}/>
+                <Button type="shuffle" onClick={onShuffle}/>
+                <Button type="right" onClick={onNextImage}/>
             </div>
         </>
     )
